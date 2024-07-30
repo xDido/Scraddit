@@ -1,5 +1,5 @@
 from Functions import create_reddit_object, choose_subreddit, collect_subreddit_data
-
+import datetime
 def main():
     # Create a Reddit object
     reddit = create_reddit_object()

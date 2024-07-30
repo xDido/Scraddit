@@ -1,3 +1,3 @@
-praw
-pip~=24.1.2
-Python-dotenv
+praw~=7.7.1
+pip~=24.2
+python-dotenv~=1.0.1
