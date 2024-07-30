@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Arabic-Text-Dataset-Benchmark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Arabic-Text-Dataset-Benchmark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/r_AlexandriaEgy_20240731_013706.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/r_AlexandriaEgy_20240731_013919.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/r_Egypt_20240731_011403.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/r_ExEgypt_20240731_012540_SENSTIVE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gucmet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Egypt_20240730_163438.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Egypt_20240730_163438.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reddit_scraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/reddit_scraper.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/venv/Scripts/python.exe",
+    "last_opened_file_path": "C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/Data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +65,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data" />
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.Script">
     <configuration name="Script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Arabic-Text-Dataset-Benchmark" />
@@ -96,7 +107,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (WaymooGUC)" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Dido\AppData\Local\Programs\Python\Python312\Scripts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -152,7 +162,8 @@
       <workItem from="1722328261834" duration="177000" />
       <workItem from="1722328447836" duration="17551000" />
       <workItem from="1722346508362" duration="396000" />
-      <workItem from="1722347990220" duration="5004000" />
+      <workItem from="1722347990220" duration="5020000" />
+      <workItem from="1722376778856" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -178,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722347753726</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1722353439436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353439436</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +221,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reddit_Scrapper$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1722333090400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Reddit_Scrapper$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722345373686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722352575516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722379837534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script__1_.coverage" NAME="Script (1) Coverage Results" MODIFIED="1722348955542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

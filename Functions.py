@@ -47,7 +47,7 @@ def collect_subreddit_data(subreddit: praw.reddit.Subreddit):
     print(f"Starting continuous data collection from r/{subreddit.display_name}")
     print("Press Ctrl+C to stop the script")
     try:
-        for submission in subreddit.new(limit=None):
+        for submission in subreddit.top(limit=None):
             if not submission.is_self:  # Skip non-text posts
                 continue
 
@@ -84,10 +84,11 @@ def collect_subreddit_data(subreddit: praw.reddit.Subreddit):
             print(f"Collected post {post_count}: {submission.title[:50]}...")
             logging.info(f"Collected post {post_count}: {submission.id}")
 
-            if post_count == 500:
+            if post_count == 1000:
                 export_to_json(data, subreddit.display_name)
                 data = []  # Clear data after exporting
                 post_count = 0  # Reset post count
+        export_to_json(data, subreddit.display_name)
 
     except KeyboardInterrupt:
         print("\nScript stopped by user. Exporting final data...")
@@ -101,7 +102,6 @@ def collect_subreddit_data(subreddit: praw.reddit.Subreddit):
         print(f"Last collected post ID: {last_post_id}")
         time.sleep(65)  # Wait for 65 seconds before retrying
 
-    logging.info(f"Script ended. Last collected post ID: {last_post_id}")
 
 
 def export_to_json(data, subreddit_name):

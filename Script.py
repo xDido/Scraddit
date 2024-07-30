@@ -5,7 +5,7 @@ def main():
     reddit = create_reddit_object()
 
     # Specify the subreddit name
-    subreddit_name = "Egypt"
+    subreddit_name = "PersonalFinanceEgypt"
 
     # Choose the subreddit
     subreddit = choose_subreddit(reddit, subreddit_name)
