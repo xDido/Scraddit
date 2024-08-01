@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="More modular repository, preparing it for the upcoming work.">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientSide/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/Compressing_Handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/JSON_Handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/Logging_Handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/Path_Finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/Praw_Handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Routes/delete_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Routes/download_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Routes/logic_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Routes/main_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/Tests/test_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/Scraddit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedditScrapper/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Egypt_20240730_163438.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/Egypt_20240730_163438.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_AlexandriaEgy_20240731_013706.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_AlexandriaEgy_20240731_013706.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_AlexandriaEgy_20240731_013919.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_AlexandriaEgy_20240731_013919.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_Egypt_20240731_011403.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_Egypt_20240731_011403.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_ExEgypt_20240731_012540_SENSTIVE.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_ExEgypt_20240731_012540_SENSTIVE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_ExEgypt_20240731_012947.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_ExEgypt_20240731_012947.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_ExEgypt_20240731_012958.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_ExEgypt_20240731_012958.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_PersonalFinanceEgypt_20240731_014939.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_PersonalFinanceEgypt_20240731_014939.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/r_PersonalFinanceEgypt_20240731_015948.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/RawData/r_PersonalFinanceEgypt_20240731_015948.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/RedditScrapper/Functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script.py" beforeDir="false" afterPath="$PROJECT_DIR$/RedditScrapper/Script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gucmet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RedditScrapper/RedditCredentialsUsed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reddit_scraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/RedditScrapper/reddit_scraper.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedditScrapper/Functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedditScrapper/RedditCredentialsUsed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedditScrapper/Script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedditScrapper/reddit_scraper.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,37 +62,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Script (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Script.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python.exe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/Data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.Functions.executor": "Run",
+    "Python.Script (1).executor": "Run",
+    "Python.Script.executor": "Run",
+    "Python.python.exe.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/Data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper\Scraddit" />
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper" />
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper\Backend" />
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data\RawData" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data" />
-      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Script">
-    <configuration name="Script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Arabic-Text-Dataset-Benchmark" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +110,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper\Script.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper\Backend\__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Arabic-Text-Dataset-Benchmark" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedditScrapper/Backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\RedditScrapper\Backend\__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,11 +177,12 @@
     </configuration>
     <list>
       <item itemvalue="Python.python.exe" />
-      <item itemvalue="Python.Script" />
+      <item itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Script" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +209,8 @@
       <workItem from="1722346508362" duration="396000" />
       <workItem from="1722347990220" duration="5020000" />
       <workItem from="1722376778856" duration="4077000" />
-      <workItem from="1722456441949" duration="307000" />
+      <workItem from="1722456441949" duration="360000" />
+      <workItem from="1722484722282" duration="16362000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -218,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722381096969</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="More modular repository, preparing it for the upcoming work.">
+      <option name="closed" value="true" />
+      <created>1722456764173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722456764173</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +294,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reddit_Scrapper$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1722333090400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Reddit_Scrapper$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722345373686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722379837534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script__1_.coverage" NAME="Script (1) Coverage Results" MODIFIED="1722348955542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script.coverage" NAME="Script Coverage Results" MODIFIED="1722490808911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Arabic_Text_Dataset_Benchmark$Script__1_.coverage" NAME="Script (1) Coverage Results" MODIFIED="1722498712032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RedditScrapper/Backend" />
   </component>
 </project>
