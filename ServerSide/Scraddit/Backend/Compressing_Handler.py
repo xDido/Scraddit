@@ -1,7 +1,7 @@
 import os
 import zipfile
 import datetime
-
+from .Path_Finder import get_path
 
 def compress_files(src_folder: str, sub_name: str):
     """
@@ -14,9 +14,7 @@ def compress_files(src_folder: str, sub_name: str):
     filename = f"{sub_name}_{timestamp}"
     zip_name = f'{filename}.zip'
 
-    backend_directory = os.path.dirname(__file__)
-    project_root = os.path.dirname(backend_directory)
-    data_directory = os.path.join(project_root, 'zip')
+    data_directory = get_path('zip')
 
     zip_path = os.path.join(data_directory, zip_name)
 

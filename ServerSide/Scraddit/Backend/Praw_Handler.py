@@ -1,13 +1,11 @@
-from typing import Dict, List
 from .JSON_Handler import export_to_json
 import datetime
 import logging
 import praw
-from dotenv import load_dotenv
-
-
+from .Compressing_Handler import compress_files
+from .Path_Finder import get_path
+log_directory = get_path('Logs')
 def create_reddit_object():
-    load_dotenv()  # Load environment variables from .env file
 
     reddit = praw.Reddit(
         client_id="nYw8u5M8iSndcbHofKBItw",
@@ -28,7 +26,7 @@ def choose_subreddit(reddit: praw.Reddit, sub_name: str):
     return subreddit
 
 
-def collect_subreddit_data(subreddit: praw.models.Subreddit, logger: logging.Logger, filter_type: str = 'new'):
+def collect_subreddit_data(subreddit: praw.models.Subreddit, logger: logging.Logger, filter_type: str):
     """
     Collect text-only data (posts and comments) from a specified subreddit,
     using the user-specified filter type.
@@ -87,7 +85,7 @@ def collect_subreddit_data(subreddit: praw.models.Subreddit, logger: logging.Log
                     }
                     post['comments'].append(comment_details)
             except Exception as e:
-                logger.error(f"Error processing comments for post {submission.id}: {str(e)}")
+                logger.error(f"Error processing comments for post {submission.id}: {str(e)} comment might be deleted")
 
             data.append(post)
             collected_post_ids.add(submission.id)  # Add the post ID to our set
@@ -112,7 +110,7 @@ def collect_subreddit_data(subreddit: praw.models.Subreddit, logger: logging.Log
         logger.info("Data collection interrupted by user.")
         print("Data collection interrupted by user.")
     finally:
-        export_to_json(data, f"{subreddit.display_name}_{filter_type}")
+        compress_files(log_directory, subreddit.display_name)
         logger.info(f"Data collection complete. Total posts collected: {len(collected_post_ids)}")
         print(f"Data collection complete. Total posts collected: {len(collected_post_ids)}")
 

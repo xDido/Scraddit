@@ -1,8 +1,8 @@
-from flask import request, jsonify, flash, redirect, url_for
+from flask import request, jsonify,session
 from . import logic_bp
 from ..Backend.Praw_Handler import create_reddit_object, choose_subreddit, collect_subreddit_data
 from ..Backend.JSON_Handler import export_to_json
-from ..Backend.Logging_Handler import setup_logging, delete_log_files
+from ..Backend.Logging_Handler import setup_logging
 
 SESSION_STORAGE = {}
 
@@ -10,6 +10,10 @@ SESSION_STORAGE = {}
 # Route for collecting subreddit data
 @logic_bp.route('/setup-reddit', methods=['POST'])
 def setup_reddit():
+    if not 'user' in session:
+        return jsonify({
+            'message': 'User session unavailable',
+        }), 404
     data = request.json
     sub_name = data.get('sub_name')
 
@@ -24,7 +28,7 @@ def setup_reddit():
         SESSION_STORAGE['subreddit_name'] = sub_name
         SESSION_STORAGE['reddit'] = reddit  # Store Reddit object
         SESSION_STORAGE['subreddit'] = subreddit  # Store subreddit object
-        return jsonify({'message': f'Subreddit {sub_name} selected', 'subreddit': sub_name}), 200
+        return jsonify({'message': f'Subreddit {sub_name} selected', 'subreddit': sub_name, 'session_user': session.get('user')}), 200
     except ValueError as ve:
         return jsonify({'error': str(ve)}), 400
     except Exception as e:
@@ -46,6 +50,7 @@ def collect_data():
     except ValueError as ve:
         return jsonify({'error': str(ve)}), 400
     except Exception as e:
+        print(e)
         return jsonify({'error': 'Failed to collect data'}), 500
 
 
@@ -61,4 +66,3 @@ def export_data():
         return jsonify({'message': f'Data exported to JSON for subreddit {sub_name} with filter {filter_type}'}), 200
     except Exception as e:
         return jsonify({'error': 'Failed to export data'}), 500
-
