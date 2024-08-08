@@ -1,10 +1,11 @@
-from flask import session, jsonify
+from flask import session, jsonify, request
 from ..Backend import delete_json_files, delete_log_files
 from ..Backend.Compressing_Handler import delete_zip_files
 from . import session_bp
 @session_bp.route('/set_session', methods=['GET'])
 def set_session():
-    session['user'] = 'test_user'
+    user_ip = request.remote_addr
+    session['user'] = user_ip
     return jsonify({'message': 'Session variable set!'})
 
 @session_bp.route('/get_session', methods=['GET'])

@@ -4,15 +4,27 @@ import logging
 import praw
 from .Compressing_Handler import compress_files
 from .Path_Finder import get_path
+from dotenv import load_dotenv
+import os
 log_directory = get_path('Logs')
 def create_reddit_object():
+    # Load environment variables from the .env file
+    load_dotenv()
 
+    # Retrieve variables from environment
+    client_id = os.getenv("REDDIT_CLIENT_ID")
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET")
+    user_agent = os.getenv("REDDIT_USER_AGENT")
+    username = os.getenv("REDDIT_USERNAME")
+    password = os.getenv("REDDIT_PASSWORD")
+
+    # Create and return the Reddit object
     reddit = praw.Reddit(
-        client_id="nYw8u5M8iSndcbHofKBItw",
-        client_secret="hdATxiS5ma7W42VbcJFH74Lv0eDEig",
-        user_agent="True",
-        username="UNIMET_52",
-        password="Gucmetscrappe@2002"
+        client_id=client_id,
+        client_secret=client_secret,
+        user_agent=user_agent,
+        username=username,
+        password=password
     )
 
     return reddit
