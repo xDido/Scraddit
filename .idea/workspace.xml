@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="RadixUI + Next.js + Shadcn UI &#10;goodnight">
+      <change afterPath="$PROJECT_DIR$/clientside/src/components/blocks/github.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/Footer.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/clientside/src/components/blocks/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/clientside/src/components/blocks/Hero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/clientside/src/components/ui",
+    "last_opened_file_path": "C:/Users/Dido/Desktop/Arabic-Text-Dataset-Benchmark/clientside/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,14 +75,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\app" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\components\ui" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\components\blocks" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\components" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside" />
-      <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\components\blocks" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\ClientSide" />
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\ServerSide\Scraddit" />
     </key>
@@ -203,7 +207,10 @@
       <workItem from="1722523937734" duration="71000" />
       <workItem from="1722524112517" duration="10130000" />
       <workItem from="1722550011250" duration="833000" />
-      <workItem from="1722550873113" duration="5745000" />
+      <workItem from="1722550873113" duration="5811000" />
+      <workItem from="1723037707898" duration="547000" />
+      <workItem from="1723096580213" duration="852000" />
+      <workItem from="1723098641993" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -285,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722557642542</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="RadixUI + Next.js + Shadcn UI &#10;goodnight">
+      <option name="closed" value="true" />
+      <created>1722557845246</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722557845246</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
