@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="Removed Frontend files from the repo.">
-      <change afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Backend/Cleaning_Handler.py" afterDir="false" />
-    </list>
+    <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="Removed Frontend files from the repo." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +261,7 @@
       <workItem from="1723125824595" duration="9000" />
       <workItem from="1723125920949" duration="659000" />
       <workItem from="1723128077788" duration="2827000" />
-      <workItem from="1723212794163" duration="934000" />
+      <workItem from="1723212794163" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -361,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723213248348</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed Frontend files from the repo.">
+      <option name="closed" value="true" />
+      <created>1723213989795</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723213989795</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
