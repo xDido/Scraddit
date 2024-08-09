@@ -5,16 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241000a5-8243-4c38-885d-a4274a49e3ac" name="Changes" comment="RadixUI + Next.js + Shadcn UI &#10;goodnight">
-      <change afterPath="$PROJECT_DIR$/ServerSide/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Arabic-Text-Dataset-Benchmark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Arabic-Text-Dataset-Benchmark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Backend/Praw_Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Backend/Praw_Handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/main_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/main_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/session_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Routes/session_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Backend/Logging_Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/Scraddit/Backend/Logging_Handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/Scraddit/Tests/test_routes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerSide/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerSide/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/FAQ.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/Hero.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/blocks/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/accordion.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/avatar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/badge.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/breadcrumb.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/dropdown-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/mode-toggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/navigation-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientside/src/components/ui/popover.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +73,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.Functions.executor": "Run",
-    "Python.Script (1).executor": "Run",
-    "Python.Script.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.python.exe.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.wsgi.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Dido/Desktop/ScradditClient/clientside",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Dido\\Desktop\\Arabic-Text-Dataset-Benchmark\\clientside\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Script (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python.exe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dido/Desktop/ScradditFrontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2024.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dido\Desktop\Arabic-Text-Dataset-Benchmark\clientside\src\app" />
@@ -199,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Arabic-Text-Dataset-Benchmark" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,13 +241,12 @@
     </configuration>
     <list>
       <item itemvalue="Python.python.exe" />
-      <item itemvalue="Python.run" />
       <item itemvalue="Python.wsgi" />
       <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.__init__" />
@@ -270,6 +286,10 @@
       <workItem from="1723096580213" duration="852000" />
       <workItem from="1723098641993" duration="5567000" />
       <workItem from="1723108512039" duration="12368000" />
+      <workItem from="1723125824595" duration="9000" />
+      <workItem from="1723125920949" duration="659000" />
+      <workItem from="1723128077788" duration="2827000" />
+      <workItem from="1723212794163" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

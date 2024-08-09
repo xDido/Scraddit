@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 from .Path_Finder import get_path
 
+
 def setup_logging(log_directory: str = None):
     """
     Set up logging to two separate files: one for DEBUG and one for INFO level logs.
@@ -12,7 +13,6 @@ def setup_logging(log_directory: str = None):
     :return: Logger object
     """
     if log_directory is None:
-
         log_directory = get_path('Logs')
 
     # Create the log directory if it doesn't exist
